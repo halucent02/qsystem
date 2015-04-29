@@ -1,0 +1,284 @@
+@import url(fonts.css);
+
+a{
+    cursor: pointer;
+}
+
+.bgreps{
+	background-color: #E6E6E6;
+	}
+.tabslist li{
+	list-style: none;
+}
+.tabulist{
+	width:768px; height:200px;
+	/*background-color: #00aaee;*/
+
+}
+.graphlist{
+	width:768px;height: 400px;
+	/*background-color: #002166;*/
+}
+.menulist li{
+	 list-style: none;
+	}
+
+.reportws{
+	width: 768px; height:750px;/*background-color:#0CC;*/background-image:url(../images/sysimg/reportmenu/logu.png) ;
+	margin:auto; font-family:din_bold; color: #039;
+	}
+	
+	.fromthisyear{
+		margin-left: 150px; font-family:din_bold; font-size:12px;
+		width:200px; height:20px; text-align:center; border-radius: 6px;
+		}
+		
+		.tothisyear{
+			margin-left:20px; font-family:din_bold; font-size:12px;
+		width:200px; height:20px; text-align:center; border-radius: 6px;
+		}
+	
+	
+	/*-------------BUTTONS SELECTIONS--*/
+	
+	.p1{
+		width:650px; height:50px; list-style:none;
+		}
+	.percentage_of_service{ /*--grey--*/
+		position:absolute;
+		width:650px; height:50px;
+		background-image:url(../images/sysimg/reportmenu/percentser.png);
+		
+		-webkit-transition: opacity 0.4s ease;
+		transition: opacity 0.4s ease;
+		}
+		
+		.percentage_of_service:hover{
+		position:absolute;
+		opacity:0;  cursor:pointer;
+		
+		}
+	.percentage_of_service1{ /*--blue--*/
+		width:650px; height:50px;
+		background-image:url(../images/sysimg/reportmenu/percentser1.png);
+		
+		
+		/*--url(../images/sysimg/reportmenu/m.png) 4 12, auto--*/
+		}
+		
+
+		/*--------------*/	
+		.sd1{
+		width:650px; height:50px; list-style:none;
+		}
+		
+		.service_duration{
+		position:absolute;
+			width:650px; height:50px; list-style:none;
+			background-image:url(../images/sysimg/reportmenu/servicedu.png);
+			
+			-webkit-transition: opacity 0.4s ease;
+			transition: opacity 0.4s ease;
+			}
+			
+			.service_duration:hover{
+		position:absolute;
+		opacity:0; cursor:pointer;
+		}
+		
+		.service_duration1{ /*--blue--*/
+		width:650px; height:50px;
+		background-image:url(../images/sysimg/reportmenu/servicedu1.png);
+
+		}
+		
+		/*--------------*/
+			.stpa{
+		width:650px; height:50px; list-style:none;
+		}
+		.service_time_per_agent{
+			position:absolute;
+			width:650px; height:50px; list-style:none;
+			background-image:url(../images/sysimg/reportmenu/sertimper.png);
+			
+			-webkit-transition: opacity 0.4s ease;
+			transition: opacity 0.4s ease;
+			}
+	
+			.service_time_per_agent:hover{
+			position:absolute;
+			opacity:0; cursor:pointer;
+		}
+		
+		.service_time_per_agent1{
+			width:650px; height:50px; list-style:none;
+			background-image:url(../images/sysimg/reportmenu/sertimper1.png);
+		}
+		
+		
+			/*--------------*/
+		
+			.cbd{
+		width:650px; height:50px; list-style:none;
+		}
+		
+			.clients_by_date{
+			position:absolute;
+			width:650px; height:50px; list-style:none;
+			background-image:url(../images/sysimg/reportmenu/clientsbd.png);
+			
+			-webkit-transition: opacity 0.4s ease;
+			transition: opacity 0.4s ease; 
+			}
+			
+			.clients_by_date:hover{
+		position:absolute;
+		opacity:0; cursor:pointer;
+		}
+		
+		.clients_by_date1{
+			width:650px; height:50px; list-style:none;
+			background-image:url(../images/sysimg/reportmenu/clientsbd1.png);
+		}
+		
+		/*--------------*/
+		
+			.caph{
+		width:650px; height:50px; list-style:none;
+		}
+			.clients_arrival_per_hour{
+			position:absolute;
+			width:650px; height:50px; list-style:none;
+			background-image:url(../images/sysimg/reportmenu/clientsarrive.png); 
+			
+			-webkit-transition: opacity 0.4s ease;
+			transition: opacity 0.4s ease;
+			}
+			
+			.clients_arrival_per_hour:hover{
+		position:absolute;
+		opacity:0; cursor:pointer; 
+		} 
+		
+		.clients_arrival_per_hour1{
+			width:650px; height:50px; list-style:none;
+			background-image:url(../images/sysimg/reportmenu/clientsarrive1.png);
+		}
+		
+		/*--------------*/
+		
+		.cpw{
+			width:650px; height:50px; list-style:none;
+			}
+		.clients_per_weekday{
+			position:absolute;
+			width:650px; height:50px; list-style:none;
+			background-image:url(../images/sysimg/reportmenu/clientperw.png);
+			
+			-webkit-transition: opacity 0.4s ease;
+			transition: opacity 0.4s ease;
+			}
+			
+			.clients_per_weekday:hover{
+		position:absolute;
+		opacity:0; cursor:pointer; 
+		} 
+		
+		.clients_per_weekday1{
+			width:650px; height:50px; list-style:none;
+			background-image:url(../images/sysimg/reportmenu/clientperw1.png);
+		}
+		
+
+/*------------------------------*/
+.backmenu{
+	 width:120px; height:30px;content:""; position:absolute; border:none; background:none;
+	 margin-left:310px; margin-top:50px; background-image: url(../images/sysimg/admin/goback.png);
+	}
+	
+/*------------------------------*/
+
+/*-------------- css for tabulated menu -----*/
+
+.dtcontainer{
+	width:650px; height:50px; list-style:none;
+}
+
+.dt{
+	position:absolute;
+	width:650px; height:50px; list-style:none;
+	background-image:url(../images/sysimg/reportmenu/dailytransacts.png);
+
+	-webkit-transition: opacity 0.4s ease;
+	transition: opacity 0.4s ease;
+}
+
+.dt:hover{
+	position:absolute;
+	opacity:0; cursor:pointer;
+}
+
+.dt1{
+	width:650px; height:50px; list-style:none;
+	background-image:url(../images/sysimg/reportmenu/dailytransacts1.png);
+}
+
+
+
+.dtcontainer_SA{
+	width:650px; height:50px; list-style:none;
+}
+
+.dtsa{
+	position:absolute;
+	width:650px; height:50px; list-style:none;
+	background-image:url(../images/sysimg/reportmenu/dailytransactpa.png);
+
+	-webkit-transition: opacity 0.4s ease;
+	transition: opacity 0.4s ease;
+}
+
+.dtsa:hover{
+	position:absolute;
+	opacity:0; cursor:pointer;
+}
+
+.dtsa1{
+	width:650px; height:50px; list-style:none;
+	background-image:url(../images/sysimg/reportmenu/dailytransactpa1.png);
+}
+
+.dtcontainer_S{
+	width:650px; height:50px; list-style:none;
+}
+
+.dts{
+	position:absolute;
+	width:650px; height:50px; list-style:none;
+	background-image:url(../images/sysimg/reportmenu/dtps.png);
+
+	-webkit-transition: opacity 0.4s ease;
+	transition: opacity 0.4s ease;
+}
+
+.dts:hover{
+	position:absolute;
+	opacity:0; cursor:pointer;
+}
+
+.dts1{
+	width:650px; height:50px; list-style:none;
+	background-image:url(../images/sysimg/reportmenu/dtps1.png);
+}
+
+
+.title1{
+	width: 680px; height: 40px;  margin-left: 30px; margin-top: 20px;
+	background-image:url(../images/sysimg/reportmenu/tabulated.png) ;
+}
+
+.title2{
+	width: 680px; height: 40px; margin-top: 20px;  margin-left: 30px;
+	background-image:url(../images/sysimg/reportmenu/titlehead.png) ;
+
+}

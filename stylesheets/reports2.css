@@ -1,0 +1,504 @@
+@import url(fonts.css);
+
+.statsblock{
+/*display:block;*/ 
+background-image:url(../images/sysimg/fluidreportimage/colores.png);
+	}  
+
+
+datess{
+	font-family:din_reg; font-size:18px;
+  	color:#FFF; margin-left:40px;
+	
+	}	
+	
+.statsblockfr1{
+	width: 600px; height:140px; margin:auto;
+	/*background-color:#366;*/
+	}
+	
+.fromtof{
+	width: 660px;
+	height: 30px;
+	/*background-color: #CCC;*/
+	margin-top: 5px;
+	margin-left: 0px;
+	top: 322px;
+}
+
+.frominputs{
+	width: 240px;
+	height: 20px;
+	text-align: center;
+	font-family: din_reg;
+	font-size: 18px;
+	}
+	
+.toinputs{
+	width: 240px;
+	height: 20px;
+	font-family: din_reg;
+	font-size: 18px;
+	margin-left: 10px;
+	text-align: center;
+	}
+	
+	
+	.agents{
+	font-family:din_reg; font-size:18px; color:#FFF; margin-left:43px; position:absolute;
+ color:#FFF; width:80px; height:20px;/* background-color:#F00;*/margin-top:12px;
+	
+	}	
+	
+		
+		.radioagent{
+	width:350px; height:24px; font-family:din_reg;color:#FFF;
+	/* background-color: #099;*/ position:absolute; margin-top:15px; margin-left:140px;
+	}
+		
+		
+		
+		
+		
+	/*------*/
+	.statsblockfr2{
+		width: 600px; height:80px; margin:auto;
+		/*background-color:#339; */
+		}	
+		.checksbox{
+			width:280px; height:80px; position:absolute; overflow-y:scroll;
+			background-color:#CCC; margin-left:145px;border-radius:10px; font-family:din_reg; font-size:14px;
+			}
+		.agentsss{
+			margin-left:5px;
+			}
+		
+	
+		
+		/*------*/	
+		
+		
+		.statsblockfr3{
+		width: 600px; height:100px; margin:auto;
+		/*background-color:#969;*/
+		}	
+		
+		statusbull{
+			font-family:din_reg; font-size:18px;
+	 position:absolute;  color:#FFF; margin-left:42px;
+			}
+			
+			
+.radiostatus{
+	width: 350px; height:24px; position:absolute; font-family:din_reg;color:#FFF;
+	margin-left: 140px; /*background-color: #099;*/ margin-top:2px;
+	}
+			
+		.checkeds{
+			width: 400px; height:20px; position:absolute; font-family:din_bold;color:#FFF;
+	margin-left: 180px; margin-top:25px; /*background-color: #FFF;*/ font-size: 12px;
+			}	
+			
+			
+.qry{
+	width:150px; height:30px; position:absolute; background-color:#CCC; color:#000;
+	border-radius:3px; margin-top:50px; margin-left:130px; font-family:din_bold; font-size:12px;
+	}
+	
+	.expt{
+	width:150px; height:30px; position:absolute; background-color:#CCC; color:#000;
+	border-radius:3px; margin-top:50px; margin-left:300px; font-family:din_bold; font-size:12px;
+	}
+	
+	.report{
+	width: 542px;
+	height: 70px;
+
+	background-image: url(../images/sysimg/fluidreportimage/reporth.png);
+	margin-left: auto;
+		}
+		
+		
+		
+/*------------------secondblock css------------*/
+
+.secondblock{ 
+margin-top:10px; height:420px;
+float:left;
+	/*background-color:#FFF;*/
+	}
+	
+	
+	.fportionf{
+		width:606px; height:400px;  border-style:inset; margin-right:0px;
+		background-color: #E6E6E6; border-radius:10px; margin-top:36px;
+		}
+		
+		.headertab{
+			width:600px; height:24px; position:absolute;
+			/*background-color:#066;*/
+			}
+			
+			.datehead{
+				width:198px; height:24px; position:absolute; font-family:din_reg;
+				background-color:#CCC;text-align:center; font-size:18px; border:medium;
+				border-color:#000; border-style: solid;
+				}
+				.statushead{
+				width:220px; height:24px; position:absolute; font-family:din_reg;
+				background-color:#CCC; text-align:center; font-size:18px; margin-left:200px;
+				border:medium;
+				border-color:#000; border-style: solid;
+				}
+				
+				.agenthead{
+				width:180px; height:24px; position:absolute; font-family:din_reg;
+				background-color:#CCC; text-align:center; font-size:18px; margin-left:420px;
+				border:medium;
+				border-color:#000; border-style: solid;
+				}
+				
+.ffportion{
+	width:600px; height:359px; position:absolute; overflow-y:scroll;
+	/*background-color:#366;*/margin-top:30px; margin-left:3px;
+	}
+	
+	.resultportionf{
+		width:600px; height:25px; 
+		/*background-color:#69C; */
+		}
+		
+		.dateresult{
+			width:198px; height:24px; position:absolute; /*background-color:#0C6;*/
+			font-family:din_reg; font-size:15px; text-align:center; border-right:medium;
+				border-right-color:#000; border-right-style: solid;
+			}
+			
+			.statusresult{
+			width:215px; height:24px; position:absolute; /*background-color:#0C6;*/
+			font-family:din_reg; font-size:15px; text-align:center; margin-left:201px;
+			border-right:medium;border-right-color:#000; border-right-style: solid;
+			}
+			
+			.agentresult{
+			width:180px; height:24px; position:absolute; /*background-color:#0C6;*/
+			font-family:din_reg; font-size:15px; text-align:center; margin-left:420px;
+			}
+			
+			
+			
+			  
+			
+			/*--------2nd block fromto portion ------*/
+			
+			.fromto2f{
+				width: 600px; height:35px; position:absolute;
+				/*background-color:#063;*/
+				}
+				
+				.froms{
+					font-family:din_reg; font-size:18px; 
+					width:60px; height:20px; position:absolute; margin-top:5px; color:#FFF;
+					}
+					
+					.fromfff{
+						width:200px; height:24px; position:absolute; font-size:18px; background-color:#FFF;
+						margin-left:60px;font-family:din_bold; margin-top:3px; text-align:center;
+						border-radius:8px;
+						}
+						
+						.tosn{
+							font-family:din_reg; font-size:18px;color:#FFF;
+						width:35px; height:28px; position:absolute; margin-top:3px; margin-left:270px;
+							
+							}
+							
+							.tossf{
+							width:200px; height:24px; position:absolute; font-size:18px; background-color:#FFF; 
+							margin-left:300px;font-family:din_bold; margin-top:3px; text-align:center;
+							border-radius:8px;
+								}
+								
+								
+								
+/*------- TRANSACTIONS AREA ---*/
+
+		.transactsf{
+			width:250px; height:260px; position:absolute; border-radius:10px;
+			background-color: #E6E6E6;  margin-top:35px;
+			}
+			
+			.transactionname{
+				width:250px; height:24px; position:absolute; color:#FFF; border-radius:8px;
+				background-color:#666;font-family:din_bold; font-size:18px; text-align:center;
+				}
+				
+				.releas{
+					width: 120px; height:20px; position:absolute; /*background-color:#990;*/
+					margin-top: 30px;  font-family:din_reg; font-size:16px; margin-left:10px;color:#039;
+					}
+					
+					.releasR{
+						width: 120px; height:25px; position:absolute; /*background-color:#990;*/ text-align:center;
+						margin-top: 27px;  font-family:din_reg; font-size:20px; margin-left:126px;
+						border-bottom-color:#000; border-bottom-style:solid;  overflow-x:scroll; overflow-y:hidden;  
+						}
+					
+					.inqu{
+					width: 120px; height:20px; position:absolute; /*background-color:#990;*/
+					margin-top:60px; font-family:din_reg; font-size:16px; margin-left:10px; color:#039;
+					}
+					
+						.inquR{
+						width: 120px; height:25px; position:absolute; /*background-color:#990;*/ text-align:center;
+						margin-top: 58px;  font-family:din_reg; font-size:20px; margin-left:126px;
+						border-bottom-color:#000; border-bottom-style:solid; overflow-x:scroll; overflow-y:hidden;
+						}
+					
+					.forre{
+					width: 120px; height:20px; position:absolute; /*background-color:#990;*/
+					margin-top:90px;font-family:din_reg; font-size:16px;margin-left:10px; color:#039;
+					}
+					
+						
+						.forreR{
+						width: 120px; height:25px; position:absolute; /*background-color:#990;*/ text-align:center;
+						margin-top: 88px;  font-family:din_reg; font-size:20px; margin-left:126px;
+						border-bottom-color:#000; border-bottom-style:solid;  overflow-x:scroll; overflow-y:hidden;  
+						}
+					
+						.appoi{
+					width: 120px; height:20px; position:absolute; /*background-color:#990;*/
+					margin-top:120px;  font-family:din_reg; font-size:16px; margin-left:10px; color:#039;
+					}
+					
+						.appoiR{
+						width: 120px; height:25px; position:absolute; /*background-color:#990;*/ text-align:center;
+						margin-top: 118px;  font-family:din_reg; font-size:20px; margin-left:126px;
+						border-bottom-color:#000; border-bottom-style:solid;    overflow-x:scroll; overflow-y:hidden;
+						}
+					
+					.totals{
+					width: 120px; height:30px; position:absolute; /*background-color:#990;*/
+					margin-top:156px;  font-family:din_bold; font-size:24px; margin-left:10px;
+					}
+					
+					.totalsR{
+						width: 105px; height:40px; position:absolute; /*background-color:#990;*/ text-align:center;
+						margin-top: 150px;  font-family:din_bold; font-size:28px; margin-left:135px;
+						border-color:#000; border-style:solid; overflow-x:scroll; overflow-y:hidden;  
+						}
+						
+						.percents{
+							width: 120px; height:30px; position:absolute; /*background-color:#990;*/
+					margin-top:205px;  font-family:din_bold; font-size:24px; margin-left:10px;
+							}
+							
+							.percentsR{
+								width: 105px; height:40px; position:absolute; /*background-color:#990;*/ text-align:center;
+						margin-top: 200px;  font-family:din_bold; font-size:30px; margin-left:135px;
+						border-color:#000; border-style:solid;  
+								}
+						
+						
+/*--------- per client section --------*/
+
+.peragentf{
+	width:372px; height:370px; position:absolute; border-radius:10px;
+	background-color: #FFF; margin-left:260px; margin-top:35px;
+	
+	}
+	
+	
+	.peragentname{
+				width:372px; height:24px; position:absolute;color:#FFF; border-radius:10px;
+				background-color:#666; font-family:din_bold; font-size:18px; text-align:center;
+				}
+				
+				 
+	.agentf{
+		width:360px; height:338px; position:absolute; overflow-y:scroll;
+		margin-left: 5px; background-color: #E6E6E6;margin-top:30px; border-radius:10px;
+		}
+		
+			.agent1f{
+		width:360px; height:170px; 
+		/* background-color:#C96;*/
+		}
+		
+		.agent1name{
+			width:360px; height:24px; position:absolute; color:#FFF;
+			background-color: #000; font-family:din_bold; font-size:18px; text-align:center;
+			}
+			
+					
+/*--------------- RELEASED  TOTAL AND PERCENTAGE  PER AGENT-----------*/
+			.relnameagent1{
+				width:320px; height:22px; position:absolute; margin-top:26px;
+				font-family:din_reg; font-size:16px; /*background-color:#CC0;*/ margin-left:20px;
+				}
+				
+			released{
+			font-family:din_reg; font-size:15px; position:absolute; color:#039; margin-top:3px;
+				}
+			 
+			 .totalrel{
+				 width: 100px; height:20px; position:absolute; font-family:din_reg;
+				/* background-color:#009;*/ margin-left: 100px; font-size:18px; text-align:center;
+				 }
+				 
+				.percentrel{
+				 width: 110px; height:20px; position:absolute; font-family:din_reg;
+				 /*background-color:#009;*/ margin-left: 205px; font-size:14px; text-align:center;
+					 }
+					 
+					 
+/*------------------------ INQUIRY TOTAL AND PERCENT PER AGENT-------*/					 
+		.inqnameagent1{
+				width:320px; height:22px; position:absolute; margin-top:50px; 
+				font-family:din_reg; font-size:16px; /*background-color:#CC0;*/margin-left:20px;
+				}
+					 
+					 	inquiry{
+			font-family:din_reg; font-size:15px; position:absolute; color:#039; margin-top:3px;
+				}
+			 
+			 .totalinq{
+				 width: 100px; height:20px; position:absolute; font-family:din_reg;
+				/* background-color:#009; */margin-left: 100px; font-size:18px; text-align:center;
+				 }
+				 
+				.percentinq{
+				 width: 110px; height:20px; position:absolute; font-family:din_reg;
+				 /*background-color:#009;*/margin-left: 205px; font-size:14px; text-align:center;
+					 }
+/*----------------------- FOR REPAIR TOTAL AND PERCENT PER AGENT --------*/
+
+		.forrepnameagent1{
+				width:320px; height:22px; position:absolute; margin-top:74px;
+				font-family:din_reg; font-size:16px; /*background-color:#CC0;*/ margin-left:20px;
+				}
+					 
+					 	forepair{
+			font-family:din_reg; font-size:15px; position:absolute; color:#039; margin-top:3px;
+				}
+			 
+			 .totalforrep{
+				 width: 100px; height:20px; position:absolute; font-family:din_reg;
+				 /*background-color:#009;*/ margin-left: 100px; font-size:18px; text-align:center;
+				 }
+				 
+				.percentforrep{
+				 width: 110px; height:20px; position:absolute; font-family:din_reg;
+				 /*background-color:#009;*/ margin-left: 205px; font-size:14px; text-align:center;
+					 }
+					 
+					 
+/*------------------- APPOINTMENT TOTAL AND PERCENT---------*/
+
+	.appointnameagent1{
+				width:320px; height:22px; position:absolute; margin-top:98px;
+				font-family:din_reg; font-size:16px; /*background-color:#CC0;*/ margin-left:20px;
+				}
+					 
+				appointments{
+			font-family:din_reg; font-size:15px; position:absolute;  color:#039; margin-top:3px;
+				}
+			 
+			 .totalappoint{
+				 width: 100px; height:20px; position:absolute; font-family:din_reg;
+				 /*background-color:#009;*/ margin-left: 100px; font-size:18px; text-align:center;
+				 }
+				 
+				.percentappoint{
+				 width: 110px; height:20px; position:absolute; font-family:din_reg;
+				 /*background-color:#009;*/ margin-left: 205px; font-size:14px; text-align:center;
+					 } 
+					 
+.totalagent1{
+	width:320px;height:30px; position:absolute; margin-left:20px;
+	/*background-color: #9F6;*/ margin-top:130px;
+	}
+	
+	totalsgent{
+		font-family:din_bold; font-size:20px; position:absolute;
+		}
+		
+		.totalnumsagent1{
+				width:100px; height:28px; margin-left:100px;position:absolute;
+				/*background-color:#9CF;*/ font-family:din_bold; font-size:17px; text-align:center;
+			}
+			
+			.totalperc1{
+				width:100px; height:28px; margin-left:205px;position:absolute;
+				/*background-color:#9CF;*/ font-family:din_bold; font-size:16px; text-align:center;
+				}
+				
+
+.logoss{
+	width:250px; height:80px; position:absolute; border-radius:10px;
+	 background-image:url(../images/sysimg/fluidreportimage/logoreport.png); margin-top:310px;
+	}	
+	
+	
+	
+			
+.secondcontainer{
+	width:97%;height:420px;
+	/*background-color:#0CF; */
+	
+	} 
+	
+
+	
+	.secondsright{
+		width:600px; height:350px; float:left;
+		/*background-color:#36C;*/
+		}	
+		
+		
+		/*.foots{
+		width:100%;height:20px; color:#FFF;  position:fixed; 
+			background-image:url(../images/colores.png); 
+			}		
+				*/ 
+body.repsbg{ 
+background-color:#CCC;
+}
+
+
+/*-------- display blocks -----*/
+
+.db1{
+	
+	height:140px; background-image::url(../images/sysimg/fluidreportimage/colores.png);
+	}
+	
+	
+.db2{
+	background-image::url(../images/sysimg/fluidreportimage/colores.png);
+	height:80px; 
+	}
+	
+	.db3{
+	
+	height:100px;background-image:url(../images/sysimg/fluidreportimage/colores.png);
+	}
+	
+	.emptyb{
+	height: 250px;
+	background-image:url(../images/sysimg/fluidreportimage/colores.png);
+		}
+	
+#top1{
+	height:800px;
+	}
+	
+.bgs{
+	background-image:url(../images/sysimg/fluidreportimage/colores.png);
+	}
+	
+	.gridContainer{
+		margin:0 0 0 0
+	
+		}

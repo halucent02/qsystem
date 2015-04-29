@@ -1,0 +1,1858 @@
+@import url(fonts.css);
+/*---------------------- CSS FOR CS MACBOOK LOG IN---------------*/
+
+body.quetvbody{
+	margin: 0px;
+	padding: 0px;
+}
+.ipadquefont{
+	font-size: 20px;
+}
+.background{
+	width:1024px;
+	height:768px;
+	background-image: url("../images/sysimg/loginques/backgroundque.png");
+	margin:auto; border-radius: 150px;
+	
+	}
+	
+.logo{
+	width:320px; height:301px; position:absolute;
+	background-image: url("../images/sysimg/loginques/logocopy1.png");
+	margin-left:330px; background-repeat:no-repeat;
+	}
+	
+quesys{
+	font-family:din_reg; font-size:34px; position:absolute;
+	color:#FFF;margin-left:350px; margin-top:215px;
+}
+
+body.loginbody{
+	background-image: url("../images/sysimg/loginques/b12.png");
+	background-repeat:repeat;
+	}
+	
+username{
+	font-family:din_reg; font-size:20px; position:absolute;
+	color:#FFF;margin-left:280px; margin-top:270px;
+}
+
+.userss{
+	width:280px; height:22px; position:absolute;
+	margin-left:410px; margin-top:270px;
+	border-radius:6px; font-size:14px;
+	}
+pass{
+	font-family:din_reg; font-size:20px; position:absolute;
+	color:#FFF;margin-left:280px; margin-top:310px;
+	}
+	
+	.password{
+	width:280px; height:22px; position:absolute;
+	margin-left:410px; margin-top:310px;
+	border-radius:6px; font-size:14px;
+	}
+
+.log{
+	width:420px; height:40px; position:absolute;
+	margin-left:280px; margin-top:350px; border-radius:8px;
+	background-color: #CCC;
+	}
+.tag{
+	width:519px; height:34px; position:absolute;
+	background-image: url(../images/sysimg/loginques/poweredby.png);
+	margin-top:430px; margin-left:230px;
+	}
+/*---------------------- CSS FOR CS MACBOOK LOG IN---------------*/
+
+
+
+
+/* -------------- IPAD AIR QUEUEING INTERFACE ------------*/
+body.ipadbody{
+	width:1365px; height:1024px;
+	margin:0px;
+	background-color: #FFF;
+	}
+.bgpad{
+	width:1365px; height:1024px;
+	margin:0px;
+	}
+.headerpad{
+	width:1365px; height:136px; position:absolute;
+	background-image: url(../images/sysimg/ipadque/headerpad.png);
+	}
+	
+/*--- mid css---*/
+.mids{
+	width:1365px; height:494px; position:absolute; 
+	margin-top:136px;
+	background-image: url(../images/sysimg/ipadque/midpad1.png);
+	}
+	
+salutation{
+	font-family:din_bold; font-size:56px;
+	margin-left:200px; margin-top:130px;
+	position:absolute; color:#039;
+	}
+firstname{
+	font-family:din_bold; font-size:56px;
+	margin-left:200px; margin-top:220px;
+	position:absolute; color:#039;
+	}
+	
+lastname{
+	font-family:din_bold; font-size:56px;
+	margin-left:219px; margin-top:320px;
+	position:absolute; color:#039;
+	}
+	
+.fn{
+	width:590px; height:50px; position:absolute;
+	margin-left:550px; margin-top:230px;
+	border-radius:10px; font-size:14px; text-align:center;
+	font-family:din_reg; font-size:40px; text-transform:uppercase;
+	}
+	
+	.ddownab{
+		width: 630px; height:65px; position:absolute; text-align:center;
+		margin-left:550px; margin-top:140px; font-family:din_reg; font-size:40px;
+		}
+.ln{
+	width:590px; height:50px; position:absolute;
+	margin-left:550px; margin-top:330px;
+	border-radius:10px; text-align:center;
+	font-family:din_reg; font-size:40px; text-transform:uppercase;
+	}
+	
+	
+	.message1s{
+	width:1280px; height:100px; margin-left:75px; position:absolute;
+ font-family:din_reg; font-size: 32px; font-weight:bold; margin-top:25px;
+	}
+	
+	.pleasepress{
+	width:1280px; height:70px; margin-left:35px; margin-top:452px;
+ font-family:din_reg; font-size: 25px; position:absolute;
+ }
+ 
+	/*--- mid css---*/ 
+	
+	
+	
+	
+/*bottom css buttons */
+.bots{
+	width:1365px; height:394px; position:absolute;
+	margin-top: 630px;
+	background-image: url("../images/sysimg/ipadque/bot.png");	
+	}
+	
+.forep{
+	width:572px; height:118px; position:absolute;
+	background-image: url("../images/sysimg/ipadque/button/forrep.png");
+	margin-left:80px; margin-top:5px; content:""; border:none; background-color:transparent;
+	}
+.rel{
+	width:572px; height:118px; position:absolute;
+	background-image: url(../images/sysimg/ipadque/button/releasing.png);
+	margin-left:700px; margin-top:5px; content:""; border:none; background-color:transparent;
+	}
+	
+.app{
+	width:572px; height:118px; position:absolute;
+	background-image: url(../images/sysimg/ipadque/button/appointment.png);
+	margin-left:80px; margin-top:125px; content:""; border:none;background-color:transparent;
+}
+
+.inq{
+	width:572px; height:118px; position:absolute;
+	background-image: url(../images/sysimg/ipadque/button/inquiry.png);
+	margin-left:700px; margin-top:125px; content:""; border:none;background-color:transparent;
+	}
+
+/*bottom css buttons */
+/* -------------- IPAD AIR QUEUEING INTERFACE ------------*/
+
+
+
+/*---------------- CSS LOGIN TABLE ----------*/
+body.logintab{
+	background-image: url(../images/sysimg/logintable/bgtabs.png);
+	}
+	
+.workspace{
+	width:1250px; height:580px;
+	margin:auto;
+	/*background-color: #999;*/
+	}
+
+.namess{
+font-family:din_bold; font-size:14px;
+width:130px; margin:auto;
+	}
+	
+
+.pending{ 
+	width:520px; height:450px; margin-left:20px;
+	background-color: #FFF; border-style:solid;
+	float:left; margin-top:5px; border-color:#039;
+	}
+
+	.servved{
+	width:342px; height:450px; 
+	background-color:#FFF;  border-style:solid;
+	float:left;margin-top:5px;border-color:#039;
+	}
+	
+.skipped{
+	width:346px; height:450px; 
+	background-color:#FFF;border-style:solid;
+	float:left;margin-top:5px;border-color:#039;
+	}
+	
+	
+.green{
+	width:18px; height:18px; position:absolute;
+	 margin-top:15px; margin-left: 435px; background-image: url("../images/sysimg/logintable/gg.png");
+	}
+	
+	.yellow{
+	width:18px; height:18px; position:absolute;
+	 margin-top:15px; margin-left: 435px; background-image: url(../images/sysimg/logintable/yy.png);
+	}
+/*------------------PENDING SECTION ---------*/
+.titpends{
+	width:520px; height:30px; position:absolute;
+	background:#06C;
+	}
+	
+	pendingn{
+		font-family:din_reg; font-size:24px;
+		color:#FFF; margin-left:4px;
+		}
+.pendnum{
+	width:60px; height:20px; position: absolute; font-family:din_bold; font-size:16px; text-align:center;
+	margin-left: 450px; margin-top: 4px; background-color:#FFF;
+	} 
+
+.pendarea{
+	width:520px; height:400px; position:absolute;
+	/*background-color:#999;*/ margin-top:30px;
+	overflow-y: scroll;
+	}
+.pendform{
+	width:520px; height:24px; position:absolute;
+	/*background-color: #09F;*/
+	}
+.nums{
+	width:25px; height:22px; position:absolute; text-align:center;
+	/*background-color:#FFF;*/font-family:din_reg; font-size:14px; 
+	margin-left:2px;
+	}
+.names{
+	width:220px; height:22px; position:absolute; text-align:center;
+	/*background-color:#FFF;*/font-family:din_bold; font-size:14px;
+	margin-left:30px;
+	}
+	
+.status{
+	width:100px; height:22px; position:absolute; text-align:center;
+	/*background-color: #FFF;*/font-family:din_reg; font-size:14px;
+	margin-left:415px;
+	}
+	
+	.serveby{ /*---- blue color ------*/
+	width:157px; height:22px; position:absolute; text-align:center;
+	/*background-color: #FFF;*/font-family:din_bold; font-size:14px;
+	margin-left:255px; color:#03C; 
+	}
+	
+	.serveby1{
+	width:157px; height:22px; position:absolute; text-align:center;
+	background-color: #FFF;font-family:din_bold; font-size:14px;
+	margin-left:255px; color: #060;
+	} /*----- green ---- */
+	
+.radios{
+	width:520px; height:22px; position:absolute; font-family:din_reg;
+	margin-top:428px; background-color: #CCC; text-align: center;
+	}
+
+
+/*----------- SERVED SECTION ---------*/
+
+.titserve{
+	width:342px; height:30px; position:absolute;
+	background:#06C;
+	}
+	
+	serven{
+		font-family:din_reg; font-size:24px;
+		color:#FFF;	margin-left:4px;
+		}
+.servenum{
+	width:60px; height:20px; position: absolute; font-family:din_bold; font-size:16px; text-align:center;
+	margin-left: 270px; margin-top: 4px; background-color:#FFF;
+	} 
+
+
+.servearea{
+	width:342px; height:400px; position:absolute;
+	 margin-top:30px;
+	overflow-y: scroll;
+	}
+	
+.sernums{
+	width:25px; height:15px; position:absolute; text-align:center;
+	font-family:din_bold; font-size:10px; 
+	margin-left:2px;
+	}
+.sernames{
+	width:150px; height:15px; position:absolute;
+	font-family:din_bold; font-size:8.5px; text-align:center;
+	margin-left:30px; 
+	}
+.serstatus{
+	width:85px; height:15px; position:absolute; font-weight:bold;
+	font-family:din_bold; font-size:10px;
+	margin-left:182px;
+	}
+
+.sercs{
+	width:70px; height:15px; position:absolute; font-weight:bold;
+	font-family:din_bold;font-size:10px;
+	margin-left:270px; 
+	}
+/*----------- SKIPPED SECTION ---------*/
+
+.titskip{
+	width:346px; height:30px; position:absolute;
+	background:#06C;
+	}
+	
+	skipn{
+		font-family:din_reg; font-size:24px;
+		color:#FFF;	margin-left:4px;
+		}
+.skipnum{
+	width:60px; height:20px; position: absolute; font-family:din_bold; font-size:16px; text-align:center;
+	margin-left: 270px; margin-top: 4px; background-color:#FFF;
+	} 
+.status11{
+	width:100px; height:22px; position:absolute; text-align:center;
+	/*background-color: #FFF;*/font-family:din_reg; font-size:14px;
+	margin-left:250px;
+	}
+
+/*------------- COUNTER NUMBER AND LOGOUT-----*/
+.countnum{
+	width: 60px; height:60px; position:absolute; text-align:center; font-size:38px; font-family:din_bold;
+	background:#FFF; border-color:#03C; border-style:solid; margin-top:470px; margin-left:20px;
+	}
+
+.counternum{
+	width:250px; height:35px; position:absolute;
+	font-family:din_bold; font-size:25px;
+	margin-top:470px; margin-left:90px;
+	/*background-color:#03C;*/
+	}
+.statuscounter{
+	width:250px; height:35px; position:absolute;
+	font-family:din_bold; font-size:30px;
+	margin-top:500px; margin-left:90px;
+	/*background-color:#03C;*/ color:#03C;
+	}
+
+.editcounter{ 
+	width:150px; height:25px; font-size:12px; background-color:#06F;
+	float:right; margin-right:630px; margin-top:13px; color:#FFF;
+	}
+.logsout{
+	width:150px; height:30px; font-size:15px;
+	float:right; margin-top:20px; font-weight:bold;
+	}
+
+.backtabes{
+	width:120px; height:30px;content:""; border:none; background:none;
+	 margin-left:1110px; margin-top:7px; background-image: url(../images/sysimg/admin/goback.png);
+	}
+
+
+
+	
+/*-------- for button1 -----*/
+.heads{
+	width:1050px; height:60px; margin:auto;
+	background-color: #039; border-bottom-left-radius:15px; border-bottom-right-radius:15px;
+	border-top-right-radius:15px;
+	}
+.buts1{
+	width:420px; height:55px; position:absolute;
+	margin-top:5px; margin-left:620px;
+	}
+	
+.jump{
+	width:186px; height:52px; position:absolute;
+	margin-left:43px; content:"";
+	background-image: url(../images/sysimg/logintable/button1/jump.png);
+	/*cursor:pointer;*/
+	}
+
+.jump:hover{
+	background-image: url(../images/sysimg/logintable/button1/jump1.png) ;
+	cursor: pointer;
+	}
+
+
+.next{
+	width:186px; height:52px; position:absolute;
+	margin-left:230px;content:"";
+	background-image: url(../images/sysimg/logintable/button1/NEXT.png);
+	}
+
+.next:hover{
+	background-image: url(../images/sysimg/logintable/button1/NEXT1.png) ;
+	cursor: pointer;
+	}
+
+.done{
+	width:186px; height:52px; position:absolute;
+	margin-left:230px;content:"";
+	background-image: url(../images/sysimg/logintable/button1/DONE.png);
+	}
+
+.done:hover{
+		background-image: url(../images/sysimg/logintable/button1/DONE1.png) ;
+		cursor: pointer;
+	}
+
+nowserve{
+	font-family:din_reg; font-size:24px; color:#FFF;
+	margin-left:5px; margin-top:10px; position:absolute;
+	}
+.servename{
+	width:250px; height:25px; position:absolute; font-size:15px; text-align:center;
+	margin-top:10px; margin-left:175px; resize:none;
+	
+	}
+	
+/*-------- for button1 -----*/
+
+/*-------- for button2 -----*/
+.buts2{
+	width:590px; height:55px; position:absolute;
+	margin-top:5px; margin-left:450px;
+	}
+
+.SERVE{
+	width:186px; height:52px; position:absolute;
+	margin-left:215px; content:"";
+	background-image: url(../images/sysimg/logintable/button2/SERVE.png);
+	}
+
+.SERVE:hover{
+	background-image:url(../images/sysimg/logintable/button2/SERVE1.png) ;
+}
+
+.SKIP{
+width:186px; height:52px; position:absolute;
+	margin-left:400px;content:"";
+	background-image: url(../images/sysimg/logintable/button2/SKIP.png);
+	}
+
+.SKIP:hover{
+	background-image:url(../images/sysimg/logintable/button2/SKIP1.png) ;
+}
+.CALL{
+	width:186px; height:52px; position:absolute;
+	margin-left:30px;content:"";
+	background-image: url(../images/sysimg/logintable/button2/CALL.png);
+	}
+
+
+.CALL{
+	background-image:url(../images/sysimg/logintable/button2/CALL1.png) ;
+	}
+/*-------- for button2 -----*/
+
+
+
+
+
+/*---------------------------------------ADMIN SECTION --------------------*/
+
+/*------ for admin panel ----*/
+
+.admins{
+	width:360px; height:460px; float:left;
+	border-radius:20px; margin-left:20px;
+	}
+	
+.adminhead{
+	width:360px; height:40px; position:absolute; text-align: center;
+	background-image: url(../images/sysimg/admin/hd.png);font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif; font-size:24px; color: #06C;
+	border-bottom-left-radius:10px; border-bottom-right-radius:10px;
+	}
+	
+.firstlast{
+	
+	width:350px; height:90px; position:absolute; margin-top:50px; margin-left:5px;
+	background-color:#E6E6E6; border-radius:10px;
+	}
+firstn{
+	font-family:Arial, Helvetica, sans-serif; position:absolute;
+	margin-top:20px; margin-left:10px;font-size:14px;
+	}
+.ff{
+	width:220px; height:18px; text-align:center; font-size:15px;
+	margin-top:17px; margin-left:110px; position:absolute;
+	}
+
+lastn{
+	font-family:Arial, Helvetica, sans-serif; font-size:14px; position:absolute;
+	margin-top:50px; margin-left:15px;
+	}
+.nn{
+	width:220px; height:18px; text-align:center;font-size:15px;
+	margin-top:50px; margin-left:110px; position:absolute;
+	}
+
+
+/*------ user and pass form -----*/
+
+.userpass{
+	
+	width:350px; height:150px; position:absolute; margin-top:145px; margin-left:5px;
+	background-color:#E6E6E6; border-radius:10px;
+	}
+usern{
+	font-family:Arial, Helvetica, sans-serif; font-size:14px; position:absolute;
+	margin-top:20px; margin-left:10px;
+	}
+.uu{
+	width:220px; height:18px; text-align:center; font-size:15px;
+	margin-top:17px; margin-left:110px; position:absolute;
+	}
+
+passn{
+	font-family:Arial, Helvetica, sans-serif; font-size:14px; position:absolute;
+	margin-top:51px; margin-left:12px;
+	}
+.pp{
+	width:220px; height:18px; text-align:center;font-size:15px;
+	margin-top:50px; margin-left:110px; position:absolute;
+	}
+
+acc{
+	font-family:Arial, Helvetica, sans-serif; font-size:14px; position:absolute;
+	margin-top:85px; margin-left:12px;
+	}
+
+.acctype{
+	margin-top:84px; margin-left:130px;
+	width:200px; height:18px; position:absolute;
+	}
+
+
+.save{
+	width:130px; height:25px; position:absolute;
+	margin-top:110px; margin-left:200px;border-radius: 10px;
+	background-color: #06C; color:#FFF;
+	}
+	
+powered{
+	font-family:din_reg; font-size:10px; font-weight:bold; position:absolute;
+	margin-top:95px; margin-left:35px; color:#06C;
+	}
+	
+.logs{
+	width: 24px; height:24px; position:absolute;
+	background-image: url(../images/sysimg/admin/elogs.png);
+	margin-top:90px; margin-left:8px;
+	}
+	
+body.adminqueb{
+	background-color: #CCC;
+	}
+	
+	
+	/*------------------- IP PANEL ---------------- */
+	
+	
+	.ippane{
+		width:350px; height:120px; position:absolute;margin-left:5px;
+	background-color:#E6E6E6; border-radius:10px; margin-top:300px;
+		}
+	ipaddress{
+		font-family:Arial, Helvetica, sans-serif; position:absolute;
+	margin-top:20px; margin-left:10px;font-size:14px;
+		}
+		
+	.ipad{
+			width:220px; height:18px; text-align:center; font-size:15px;
+	margin-top:17px; margin-left:110px; position:absolute;
+			}
+	
+	named{
+		font-family:Arial, Helvetica, sans-serif; font-size:14px; position:absolute;
+	margin-top:50px; margin-left:9px;
+		}
+	
+	.nems{
+	width:220px; height:18px; text-align:center;font-size:15px;
+	margin-top:50px; margin-left:110px; position:absolute;
+	}
+	
+	.saveds{
+		width:130px; height:25px; position:absolute;
+	margin-top:80px; margin-left:200px; border-radius: 10px;
+	background-color: #06C; color:#FFF;
+		}
+	
+	.back{
+		width:120px; height:30px; position:absolute;content:""; border:none; background: none;
+		margin-top:130px; margin-left:120px; background-image: url(../images/sysimg/admin/goback.png);
+		}
+	
+	
+	
+	
+	/*---------------------------------------ADMIN SECTION --------------------*/
+	
+	
+	.listusers-cont{
+		width:750px; height:420px; margin-left:10px;
+		/*background-color:#0F6;*/ float:left;
+		}
+		
+	.listofusers-h{
+		width:750px; height:40px; position:absolute; text-align: center;
+		background-image: url(../images/sysimg/admin/hd.png);font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif; 
+		font-size:24px; color: #06C;
+		border-bottom-left-radius:10px; border-bottom-right-radius:10px;
+		}
+	
+		.list-cont{
+			width:750px; height:370px; position:absolute; margin-top:49px;
+			background-color:#E6E6E6; border-radius:10px; overflow-y:scroll; overflow-x:hidden;
+		}
+		
+		.user-contain{
+			width:750px; height: 60px; border-radius:10px;
+			background-color:#eee; margin-bottom:3px;
+		}
+		
+		.name-h{
+				height:18px; font-size:15px; margin-top:8px; margin-left:5px;
+				font-family: helvetica; float:left;
+			}
+			
+		.name-f{
+				width:250px; height:12px; font-size:12px;margin-top:10px;
+				float:left; font-family: helvetica; margin-left:8px;
+				/*background-color:#DDD;*/
+			}
+		.acctype-f{
+				width:150px; height:12px; font-size:12px;margin-top:10px;
+				float:left; font-family: helvetica; margin-left:5px;
+				/*background-color:#DDD;*/
+			}
+		
+		.activated-h{
+				height:18px; font-size:15px; margin-top:30px; margin-left:50px;
+				font-family: helvetica; position:absolute;
+		}
+		
+		.activated-f{
+				width:14px; heigth:14px; font-family:helvetica; font-weight:bold;
+				float:left;font-size:16px; margin-top:8px; margin-left:4px; color:green;
+		}
+		
+		
+		
+		.demotebtn{
+			width:150px; height:25px; border-style:solid; color:#FFF;
+			border-radius:5px; background-color:#06C; border-width:thin;
+			outline-style:none;float:left; margin-left:5px;
+			}
+			.demotebtn:hover{
+				background-color:#09F;
+					cursor:pointer;
+				}
+				
+				.list-btn-cont{
+					width:480px;
+					float:right;
+					
+					}
+/*--------------- FOR POP UP QUE -----------------------*/
+
+.popupqs{
+	width:300px; height:150px;
+	background-color: #E6E6E6;
+	}
+	
+.counternumbs{
+	width:145px; height:18px; position:absolute; font-family:din_reg;
+	font-size:14px;  margin-left:20px; margin-top:20px;
+	}
+	
+.ddownnum{
+	 margin-left:160px; margin-top:20px; position:absolute;
+	}
+.accepting{
+	width:145px; height:18px; position:absolute;  font-family:din_reg;
+	font-size:14px;  margin-left:70px; margin-top:45px;
+	}
+	
+.accepts{
+	margin-left:160px; margin-top:45px;position:absolute;
+	}
+	
+.savepop{
+	width:80px; height:35px; position:absolute;
+	 margin-top:90px; margin-left:110px;
+	}
+	
+.cancelpop{
+	width:80px; height:35px; position:absolute;
+	margin-left:190px; margin-top:90px;
+	}
+	
+	
+	
+	
+	
+	
+
+/*----------------------- JUMP POP UP SECTION ----------- */
+.popupjumps{
+	width:300px; height:150px;
+	background-color: #E6E6E6;
+	}
+
+.okpop{
+		width:80px; height:35px; position:absolute;
+	 margin-top:90px; margin-left:110px;
+	}
+	
+	.cancelpops{
+	width:80px; height:35px; position:absolute;
+	margin-left:190px; margin-top:90px;
+	}
+.number{
+	width:150px; height:50px; position:absolute; font-family:din_bold;
+	font-size:17px; margin-left:20px; margin-top:28px; 
+}
+
+.numbsf{
+	width:60px; height:40px; position:absolute; text-align:center;
+	border-style:solid; font-family:din_bold; font-size:36px;
+	margin-top:25px; margin-left:200px;
+	
+	}
+	
+	
+	
+	
+	
+	
+
+/*---------------- IPAD RELEASING POP UP ---------*/
+.popup{
+	width:300px; height:300px;
+	background-color: #CCC;
+	}
+.ar{
+	width:350px; height:50px; position:absolute; font-family:din_bold;
+	font-size:40px;margin-top:8px; margin-left:60px;
+}
+.arf{
+	width:420px; height:40px; position:absolute;
+	text-align:center; font-size:42px;
+	margin-top:120px; margin-left:40px;
+	}
+	
+	
+.okpad{
+		width:80px; height:50px; position:absolute;
+	 margin-top:200px; margin-left:20px; border-radius:5px;
+	}
+	
+.cancelpad{
+	width:120px; height:50px; position:absolute;
+	margin-left:380px; margin-top:200px; border-radius:5px;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+/*-------------------------- BACK ROOM QUE -----------*/
+.backws{
+	width:1024px; height:580px; border-style:solid; border-color:#06C;
+	margin-left:120px; background-color: #E6E6E6; 
+}
+
+.titleback{
+	width: 1024px; height:40px; position:absolute; text-align:center;
+	background-color:#06C; font-family:din_bold; font-size:30px; color:#FFF;
+	}
+	
+	.logback{
+		width:100px; height:40px; content:""; border-radius: 10px;
+		margin-left:10px; margin-top: 5px; font-family:din_bold; font-size:15px;float:left;
+		}
+	
+.arbox{
+	width:512px; height:540px; position:absolute;
+	background-color: #FFF; margin-top:40px;
+	}
+.releasebox{
+	width:510px; height:25px; position:absolute; text-align:center;
+	background-color:#039; color:#FFF; font-family:din_bold; font-size:20px;
+	}
+	
+.ars{
+	width:94px; height:30px; position:absolute;
+	/*background-color:#09C;*/ margin-top:25px;
+	}
+	
+.arno{
+	width: 94px; height:30px; position:absolute; color:#FFF;
+	background-color: #666; text-align:center; font-family:din_bold; font-size:17px;
+	}
+
+/*.arfsrel{
+	width:94px; height:482px; position:absolute;
+	background-color:#0C9; margin-top:30px; overflow-y: scroll;
+	}*/
+.arfsno{
+	width:93px; height:30px; position:absolute; text-align:center; color:#06F;
+	/*background-color: #996;*/ font-family:din_reg; font-size:17px;
+	}
+
+
+
+.arfsrelprep{
+	width:94px; height:482px; position:absolute;
+	background-color:#0C9; margin-top:30px; overflow-y: scroll;
+	}
+.arfsnoprep{
+	width:93px; height:30px; position:absolute; text-align:center; color:#06F;
+	/*background-color: #996;*/font-family:din_reg; font-size:17px; border-right:thick; border-right-style:solid; border-right-color:#FFF;
+	}
+
+
+
+
+
+
+
+
+.nfc{
+	width:510px; height:515px; position:absolute;
+	/*background-color:#099;*/ margin-top:25px; 
+	}
+
+.nfcprep{
+	width:510px; height:515px; position:absolute;
+	/*background-color:#099;*/ margin-top:25px; 
+	}
+
+.nameofc{
+	width:414px; height:30px; position:absolute; font-family:din_bold; font-size:20px;
+	background-color: #666; text-align:center; color:#FFF; margin-left:96px;
+	}
+	
+.nfcform{
+	width:510px; height:482px; position:absolute;
+	margin-top:30px; /*background-color:#63C;*/  overflow-y: scroll;
+	}
+	
+	.nfcformprep{
+	width:511px; height:482px; position:absolute;
+	margin-top:30px; /*background-color:#63C;*/  overflow-y: scroll;
+	}
+	
+	
+.nfcl{
+	width: 510px; height:30px;
+	/*background-color: #C99;*/
+	}
+	
+.nameclient{
+	width: 300px; height:29px; position:absolute; margin-left:97px;
+	/*background-color: #C9F;*/ font-family:din_reg; font-size:20px;
+	}
+	
+.prepared{
+	height: 20px; width:100px; position: absolute; font-size:15px; border-radius:6px;
+	background-color: #06F; text-align:center; font-family:din_reg; color:#FFF;
+	margin-left:400px; margin-top:3px; text-decoration:none; content:"";
+	}
+	
+	
+	
+	
+	
+	
+	
+/*---------- prepared section -------------*/
+
+.prepsi{
+	width: 512px; height: 510px; position:absolute;
+	/*background-color: #39C;*/ margin-top:25px;
+	}
+
+
+
+.prepbox{
+	width:512px; height:540px; position:absolute;
+	margin-left:512px; margin-top:40px;
+	}
+	
+.preparedbox{
+	width:512px; height:25px; position:absolute; text-align:center;
+	background-color: #039; color:#FFF; font-family:din_bold; font-size:20px;
+	}
+	
+	.prepno{
+		width: 94px; height:30px; position:absolute; color:#FFF; 
+	background-color: #666; text-align:center; font-family:din_bold; font-size:18px;
+		}
+		
+	.prepofc{
+		width:416px; height:30px; position:absolute; font-family:din_bold; font-size:18px;
+	background-color: #666; text-align:center; color:#FFF; margin-left:95px;
+		}
+		
+	.nfclprep{
+		width: 510px; height:30px;
+			/*background-color: #C99; */text-align:center;
+		}
+		
+	.nameclientprep{
+		width: 415px; height:29px; position:absolute; margin-left:96px;
+	/*background-color: #C9F; */font-family:din_reg; font-size:20px
+		}
+		
+		.tags{
+			width:519px; height:34px; position:absolute;
+	background-image: url(../images/sysimg/loginques/poweredby.png);
+	margin-top:582px; margin-left:380px;
+			}
+			
+	.logos{
+		width:80px; height:80px; position:absolute;
+		margin-top:60px; margin-left:20px;
+	background-image: url(../images/sysimg/logot.png);	
+	
+		}
+		
+.brw{
+	width:1150px; height:620px;
+	
+	}
+	
+	.backs{
+	width:120px; height:30px;content:""; border:none; background:none; margin-top:550px;
+	background-image: url(../images/sysimg/admin/goback.png); position:absolute;
+	}
+	
+	
+	
+	
+	
+/*---------------------- queing TV ---------------------------*/
+.bgtv{ 
+	width:1920px; height:1080px;
+	/*background-color:#CCC;*/	
+	}
+	
+.floor{
+	width:1468px; height:1080px; position:absolute;
+	background-image: url(../images/sysimg/quetv/newbg.jpg)
+	}
+	
+.table{
+	
+	width:1468px; height:1080px; position:absolute; background-repeat:no-repeat;
+	background-image: url(../images/sysimg/quetv/table.png);
+	}
+	
+/*--------- for numbers ------------*/
+.nositters{
+	width:1080px; height:95px; position:absolute;
+	margin-top:45px; margin-left:90px;
+	}
+	
+#nosit1{
+	width:95px; height:95px; position:absolute; color:#039;
+	font-family:din_bold; font-size:50px; text-align:center;
+		}
+
+#nosit2{
+	width:95px; height:95px; position:absolute; color:#039;
+	font-family:din_bold; font-size:50px; text-align:center;
+	margin-left:160px;
+		}
+#nosit3{
+	width:95px; height:95px; position:absolute; color: #039;
+	font-family:din_bold; font-size:50px; text-align:center;
+	margin-left:310px;
+		}
+#nosit4{
+	width:95px; height:95px; position:absolute; color: #039;
+	font-family:din_bold; font-size:50px; text-align:center;
+	margin-left:470px;
+		}
+#nosit5{
+	width:95px; height:95px; position:absolute; color: #039;
+	font-family:din_bold; font-size:50px; text-align:center;
+	margin-left:625px;
+		}
+
+#nosit6{
+	width:95px; height:95px; position:absolute; color: #039;
+	font-family:din_bold; font-size:50px; text-align:center;
+	margin-left:780px;
+		}
+#nosit7{
+	width:95px; height:95px; position:absolute; color: #039;
+	font-family:din_bold; font-size:50px; text-align:center;
+	margin-left:940px;
+		}
+	
+.nositters2{
+	width:96px; height:550px; position:absolute;
+	/*background-color:#069;*/ margin-top: 270px; margin-left:1315px; 
+	}	
+	
+#nosit8{
+	width:95px; height:95px; position:absolute; color: #039;
+	font-family:din_bold; font-size:50px; text-align:center;
+		}
+		
+#nosit9{
+	width:95px; height:95px; position:absolute; color: #039;
+	font-family:din_bold; font-size:50px; text-align:center;
+	margin-top:160px;
+		}
+
+#nosit10{
+	width:95px; height:95px; position:absolute; color: #039;
+	font-family:din_bold; font-size:50px; text-align:center;
+	margin-top:310px;
+		}
+
+#nosit11{
+	width:95px; height:95px; position:absolute; color: #039;
+	font-family:din_bold; font-size:50px; text-align:center;
+	margin-top:470px;
+		}
+
+/*--------------------------for chairs div --------*/
+.sitters{
+	width:1080px; height:96px; position:absolute;
+	/*background-color:#06C;*/ margin-top:170px; margin-left:90px;
+	}
+	
+.sit1{
+	width:95px; height:95px; position:absolute;
+	background-repeat:no-repeat;
+	background-image: url(../images/sysimg/quetv/sit.png);
+	}
+	
+.sit2{
+	width:95px; height:95px; position:absolute;
+	background-repeat:no-repeat; margin-left:160px;
+	background-image: url(../images/sysimg/quetv/sit.png);
+	}
+
+.sit3{
+	width:95px; height:95px; position:absolute;
+	background-repeat:no-repeat; margin-left:310px;
+	background-image: url(../images/sysimg/quetv/sit.png);
+	}
+
+.sit4{
+	width:95px; height:95px; position:absolute;
+	background-repeat:no-repeat; margin-left:470px;
+	background-image: url(../images/sysimg/quetv/sit.png);
+	}
+.sit5{
+	width:95px; height:95px; position:absolute;
+	background-repeat:no-repeat; margin-left:625px;
+	background-image: url(../images/sysimg/quetv/sit.png);
+	}
+	
+.sit6{
+	width:95px; height:95px; position:absolute;
+	background-repeat:no-repeat; margin-left:780px;
+	background-image: url(../images/sysimg/quetv/sit.png);
+	}
+	
+.sit7{
+	width:95px; height:95px; position:absolute;
+	background-repeat:no-repeat; margin-left:940px;
+	background-image: url(../images/sysimg/quetv/sit.png);
+	}
+	
+/*------ sitters 2 ---------*/
+
+.sitters2{
+	width:96px; height:550px; position:absolute;
+	/*background-color:#069;*/ margin-top: 270px; margin-left:1170px;
+	}
+	
+.sit8{
+	width:95px; height:95px; position:absolute;
+	background-repeat:no-repeat;
+	background-image: url(../images/sysimg/quetv/sit.png);
+	}
+	
+	
+.sit9{
+	width:95px; height:95px; position:absolute;
+	background-repeat:no-repeat; margin-top:160px;
+	background-image: url(../images/sysimg/quetv/sit.png);
+	}
+	
+.sit10{
+	width:95px; height:95px; position:absolute;
+	background-repeat:no-repeat; margin-top:310px;
+	background-image: url(../images/sysimg/quetv/sit.png);
+	}
+	
+.sit11{
+	width:95px; height:95px; position:absolute;
+	background-repeat:no-repeat; margin-top:470px;
+	background-image: url(../images/sysimg/quetv/sit.png);
+	}
+	
+	
+	
+	
+	
+	/*------------ */
+	
+.pmclogo{
+	width:303px; height:69px; margin-top:1000px; margin-left:1550px;
+	position:absolute; background-image: url(../images/sysimg/quetv/pmclogos.png);        
+	}
+.nextnumsf{
+	width:452px; height:280px; position:absolute;
+	margin-top:700px; margin-left:1468px;
+	background-image: url(../images/sysimg/quetv/nxtnem.png);
+	}
+
+img.nextnumsfirst{
+	width:400px; height:160px; position:absolute;
+	/*background-image: url(../images/sysimg/quetv/engref.png);*/margin-left:23px; text-align:center;
+	font-size:80px; margin-top:50px; color:#FFF; font-family:din_reg;
+	src:  url(../images/sysimg/quetv/engref.png);
+	}
+	
+
+	
+.servingname{
+	width:453px; height:115px; position:absolute;
+	background-color: #CCC; margin-left:1468px; color:#000;
+	font-family:din_bold; font-size:72px; text-align: center;
+	}
+	
+.servednames{
+		width:453px; height:584px; position:absolute;
+margin-left:1468px; color:#000;
+	margin-top:115px;
+	}
+
+
+/*--------------------- serving names ----------*/
+.s1{
+	width:453px; height:22px; position:absolute;
+	margin-top: 6px;
+	}
+	
+	.s1num{
+		width:20px; height:22px; position:absolute; color: #039;
+		font-family:din_bold; font-size:20px; text-align: center;
+		}
+		.s1name{
+		width:275px; height:22px; position:absolute;color: #039;
+		font-family:din_bold; font-size:20px; margin-left: 25px;
+		}
+		
+		.s1stat{
+		width:145px; height:22px; position:absolute;color: #039;
+		font-family:din_bold; font-size:20px;margin-left:308px;
+		}
+		
+.s2{
+	width:453px; height:22px; position:absolute;
+	
+	}
+	
+	.s2num{
+		width:20px; height:22px; position:absolute; color: #039;
+		font-family:din_bold; font-size:20px; text-align: center;
+		}
+		.s2name{
+		width:275px; height:22px; position:absolute;color: #039;
+		font-family:din_bold; font-size:20px; margin-left: 25px;
+		}
+		
+		.s2stat{
+		width:145px; height:22px; position:absolute; color: #039;
+		font-family:din_bold; font-size:20px;margin-left:308px;
+		}
+		
+.s3{
+	width:453px; height:22px; position:absolute;
+
+	}
+	
+	.s3num{
+		width:20px; height:22px; position:absolute; color: #039;
+		font-family:din_bold; font-size:20px; text-align: center;
+		}
+		.s3name{
+		width:275px; height:22px; position:absolute; color: #039;
+		font-family:din_bold; font-size:20px; margin-left: 25px;
+		}
+		
+		.s3stat{
+		width:145px; height:22px; position:absolute; color: #039;
+		font-family:din_bold; font-size:20px;margin-left:308px;
+		}
+		
+		
+		.s4{
+	width:453px; height:22px; position:absolute;
+
+	}
+	
+	.s4num{
+		width:20px; height:22px; position:absolute;color: #039;
+		font-family:din_bold; font-size:20px; text-align: center;
+		}
+		.s4name{
+		width:275px; height:22px; position:absolute; color: #039;
+		font-family:din_bold; font-size:20px; margin-left: 25px;
+		}
+		
+		.s4stat{
+		width:145px; height:22px; position:absolute;color: #039;
+		font-family:din_bold; font-size:20px;margin-left:308px;
+		}
+		
+		
+	.s5{
+	width:453px; height:22px; position:absolute;
+
+	}
+	
+	.s5num{
+		width:20px; height:22px; position:absolute;  color: #039;
+		font-family:din_bold; font-size:20px; text-align: center;
+		}
+		.s5name{
+		width:275px; height:22px; position:absolute; color: #039;
+		font-family:din_bold; font-size:20px; margin-left: 25px;
+		}
+		
+		.s5stat{
+		width:145px; height:22px; position:absolute; color: #039;
+		font-family:din_bold; font-size:20px;margin-left:308px;
+		}
+		
+		
+		
+		.s6{
+	width:453px; height:22px; position:absolute;
+
+	}
+	
+	.s6num{
+		width:20px; height:22px; position:absolute;color: #039;
+		font-family:din_bold; font-size:20px; text-align: center;
+		}
+		.s6name{
+		width:275px; height:22px; position:absolute;color: #039;
+		font-family:din_bold; font-size:20px; margin-left: 25px;
+		}
+		
+		.s6stat{
+		width:145px; height:22px; position:absolute;color: #039;
+		font-family:din_bold; font-size:20px;margin-left:308px;
+		}
+	
+	
+	.s7{
+	width:453px; height:22px; position:absolute;
+
+	}
+	
+	.s7num{
+		width:20px; height:22px; position:absolute;color: #039;
+		font-family:din_bold; font-size:20px; text-align: center;
+		}
+		.s7name{
+		width:275px; height:22px; position:absolute; color: #039;
+		font-family:din_bold; font-size:20px; margin-left: 25px;
+		}
+		
+		.s7stat{
+		width:145px; height:22px; position:absolute; color: #039;
+		font-family:din_bold; font-size:20px;margin-left:308px;
+		}
+		
+		
+		.s8{
+	width:453px; height:22px; position:absolute;
+
+	}
+	
+	.s8num{
+		width:20px; height:22px; position:absolute;color: #039;
+		font-family:din_bold; font-size:20px; text-align: center;
+		}
+		.s8name{
+		width:275px; height:22px; position:absolute;color: #039;
+		font-family:din_bold; font-size:20px; margin-left: 25px;
+		}
+		
+		.s8stat{
+		width:145px; height:22px; position:absolute;color: #039;
+		font-family:din_bold; font-size:20px;margin-left:308px;
+		}
+		
+		
+		.s9{
+	width:453px; height:22px; position:absolute;
+	
+	}
+	
+	.s9num{
+		width:20px; height:22px; position:absolute;color: #039;
+		font-family:din_bold; font-size:20px; text-align: center;
+		}
+		.s9name{
+		width:275px; height:22px; position:absolute;color: #039; 
+		font-family:din_bold; font-size:20px; margin-left: 25px;
+		}
+		
+		.s9stat{
+		width:145px; height:22px; position:absolute;color: #039;
+		font-family:din_bold; font-size:20px;margin-left:308px;
+		}
+		
+		
+		.s10{
+	width:453px; height:22px; position:absolute;
+	
+	}
+	
+	.s10num{
+		width:20px; height:22px; position:absolute; color: #039;
+		font-family:din_bold; font-size:20px; text-align: center;
+		}
+		.s10name{
+		width:275px; height:22px; position:absolute; color: #039;
+		font-family:din_bold; font-size:20px; margin-left: 25px;
+		}
+		
+		.s10stat{
+		width:145px; height:22px; position:absolute;color: #039;
+		font-family:din_bold; font-size:20px;margin-left:308px;
+		}
+		
+		 
+		.s11{
+	width:453px; height:22px; position:absolute;
+	
+	}
+	
+	.s11num{
+		width:20px; height:22px; position:absolute; color: #039;
+		font-family:din_bold; font-size:20px; text-align: center;
+		}
+		.s11name{
+		width:275px; height:22px; position:absolute; color: #039;
+		font-family:din_bold; font-size:20px; margin-left: 25px;
+		}
+		
+		.s11stat{
+		width:145px; height:22px; position:absolute; color: #039;
+		font-family:din_bold; font-size:20px;margin-left:308px;
+		} 
+		
+		
+		
+/*-------------- listquef section -----------------*/
+
+.listquef{
+	width:1142px; height:383px; position:absolute;
+	background-image: url(../images/sysimg/quetv/namesquare.png); 
+	margin-top: 690px; margin-left:20px;
+}
+
+.bannersf{
+	width:1105px; height:392px; position:absolute;
+	background-image: url(../images/sysimg/quetv/backcount.png);
+	margin-top: 265px; margin-left:40px;
+	}
+
+.bannername{
+	height:110px; width:1060px; position:absolute; color:#FFF; text-align:center; 
+	font-family:din_bold; font-size:90px; margin-top:5px; text-style:capitalize;
+	}
+	
+/*-------------- COUNTERS 1-11-------*/
+#counter1{
+	width:801px; height:178px; position:absolute;
+	background-image: url(../images/sysimg/quetv/counternumber/c1copy.png);
+	margin-left: 302px; margin-top:215px;   
+	}
+	
+#counter2{
+	width:801px; height:178px; position:absolute;
+	background-image: url(../images/sysimg/quetv/counternumber/c2.png);
+	margin-left: 302px; margin-top:215px;   
+	}
+	
+#counter3{
+	width:801px; height:178px; position:absolute;
+	background-image: url(../images/sysimg/quetv/counternumber/c3.png);
+	margin-left: 302px; margin-top:215px;   
+	}
+	
+#counter4{
+	width:801px; height:178px; position:absolute;
+	background-image: url(../images/sysimg/quetv/counternumber/c4.png);
+	margin-left: 302px; margin-top:215px;   
+	}
+	
+	
+#counter5{
+	width:801px; height:178px; position:absolute;
+	background-image: url(../images/sysimg/quetv/counternumber/c5.png);
+	margin-left: 302px; margin-top:215px;   
+	}
+	
+#counter6{
+	width:801px; height:178px; position:absolute;
+	background-image: url(../images/sysimg/quetv/counternumber/c6.png);
+	margin-left: 302px; margin-top:215px;   
+	}
+	
+	
+#counter7{
+	width:801px; height:178px; position:absolute;
+	background-image: url(../images/sysimg/quetv/counternumber/c7.png);
+	margin-left: 302px; margin-top:215px;   
+	}
+	
+#counter8{
+	width:801px; height:178px; position:absolute;
+	background-image: url(../images/sysimg/quetv/counternumber/c8.png);
+	margin-left: 302px; margin-top:215px;   
+	}
+	
+#counter9{
+	width:801px; height:178px; position:absolute;
+	background-image: url(../images/sysimg/quetv/counternumber/c9.png);
+	margin-left: 302px; margin-top:215px;   
+	}
+	
+#counter10{
+	width:801px; height:178px; position:absolute;
+	background-image: url(../images/sysimg/quetv/counternumber/c10.png);
+	margin-left: 302px; margin-top:215px;   
+	}
+	
+	
+#counter11{
+	width:801px; height:178px; position:absolute;
+	background-image: url(../images/sysimg/quetv/counternumber/c11.png);
+	margin-left: 302px; margin-top:215px;   
+	}
+	
+	
+	
+	
+/*-------------------- listss section -------*/
+
+.listss{
+	width: 1070px; height:330px; position:absolute;
+	 margin-left:22px; margin-top:12px; /*background-color:#0CF;*/
+	}
+	
+	#numbr1{
+		width:62px; height:49px; position:absolute; margin-top:7px; border-radius: 10px;
+		background-color: #06C; font-family:din_bold; font-size: 35px; text-align:center; color:#FFF;
+		}
+	 
+	#numbr2{
+		width:62px; height:49px; position:absolute; border-radius: 10px; margin-top:7px;
+		background-color: #06C; font-family:din_bold; font-size: 35px; text-align:center; color:#FFF;
+		
+		}
+	 
+	 #numbr3{
+		width:62px; height:49px; position:absolute; border-radius: 10px; margin-top: 7px;
+		background-color: #06C; font-family:din_bold; font-size: 35px; text-align:center; color:#FFF;
+		
+		}
+		
+		#numbr4{
+		width:62px; height:49px; position:absolute; border-radius: 10px; 	margin-top: 7px;
+		background-color: #06C; font-family:din_bold; font-size: 35px; text-align:center; color:#FFF;
+	
+		}
+		
+		#numbr5{
+		width:62px; height:49px; position:absolute; border-radius: 10px; margin-top: 7px;
+		background-color: #06C; font-family:din_bold; font-size: 35px; text-align:center; color:#FFF;
+		;
+		}
+		
+		
+	#namenum1{
+		width: 550px;height:49px; position:absolute;
+		font-family:din_bold; font-size:37px; /*background-color: #CF3;*/
+		margin-top:7px; margin-left:75px; color:#039;
+		}
+		
+		#namenum2{
+		width: 550px;height:49px; position:absolute;
+		 font-family:din_bold; font-size:37px; /*background-color: #CF3;*/
+		margin-top:7px; margin-left:75px;color:#039;
+		}
+		
+			#namenum3{
+		width: 550px;height:49px; position:absolute;
+		 font-family:din_bold; font-size:37px; /*background-color: #CF3;*/
+		margin-top:7px; margin-left:75px; color:#039;
+		}
+	 
+	 		#namenum4{
+		width: 550px;height:49px; position:absolute;
+	 font-family:din_bold; font-size:37px; /*background-color: #CF3;*/
+	margin-top:7px; margin-left:75px;color:#039; 
+		}
+		
+				#namenum5{
+		width: 550px;height:49px; position:absolute;
+		font-family:din_bold; font-size:37px; /*background-color: #CF3;*/
+		margin-top:7px; margin-left:75px;color:#039;
+		}
+		
+			.seps{
+				width:5px; height:300px; position:absolute;
+				 margin-left:650px; margin-top:7px; background-color:#CCC;
+				
+				}
+				
+				#namenumstats1{
+		width: 600px;height:35px; position:absolute;
+		 font-family:din_bold; font-size:40px;
+		 margin-left:685px; margin-top:7px;color:#039;
+		}
+		  
+		
+					#namenumstats2{
+		width: 600px;height:35px; position:absolute;
+		 font-family:din_bold; font-size:40px;
+		margin-top:7px;margin-left:685px;;color:#039;
+		}
+			
+						#namenumstats3{
+		width: 600px;height:35px; position:absolute;
+	 font-family:din_bold; font-size:40px;
+		margin-top:7px; margin-left:685px;;color:#039;
+		}
+			
+							#namenumstats4{
+		width: 600px;height:35px; position:absolute;
+	 font-family:din_bold; font-size:40px;
+		margin-top:7px;margin-left:685px;;color:#039;
+		}
+			
+							#namenumstats5{
+		width: 600px;height:35px; position:absolute;
+	font-family:din_bold; font-size:40px;
+		margin-top:7px; margin-left:685px;color:#039;
+		}
+			 
+			 
+			 /*------ row div ---- */
+			 
+								#row1{
+				 width:650px; height:63px; position:absolute;
+				 				 }
+								 
+ 								#row2{
+				 width:650px; height:63px;
+				 margin-top:65px;
+				 				 }
+								 
+								 #row3{
+				 width:650px; height:63px;
+				margin-top:3px;
+				 				 }
+								 
+								  #row4{
+				 width:650px; height:63px;
+			 margin-top:3px;
+				 				 }
+								 
+								  #row5{
+				 width:650px; height:63px;
+				  margin-top:3px;
+				 				 }
+								 
+								 
+								 
+								 
+								 
+								 
+								 
+/*------------------ client QUE --------------*/
+
+.clientfield{
+	width: 850px; height:1024px; border-radius:20px;
+	background-color: #CCC; margin:auto;
+	}
+	
+.quetitski{
+	width:850px; height: 55px; position:absolute; color:#FFF; border-radius:10px;
+	background-color:#06C; font-size:45px; font-family:din_bold; text-align:center;
+	}
+.listaf{
+	width:840px; height:870px; position: absolute; overflow-y: scroll;
+	margin-top:70px; background-color: #CCC; margin-left:5px;
+	}
+	.listanaf{
+		width: 838px; height: 58px;
+	 margin-left:1px; background-color:#FFF;
+		} 
+		
+		.listanumber{
+			width:80px; height:53px; position:absolute; color:#FFF; font-family:din_reg;
+			background-color:#06C; margin-top:1px; font-size:40px; text-align:center; border-radius:5px;
+			}
+			
+			.listaname{
+				width:500px; height:53px; position:absolute; color:#FFF; font-family:din_bold; text-transform:capitalize;
+		 margin-top:1px; font-size:36px;  margin-left: 82px; text-align:center; color:#036;
+				}
+				
+				.listastatus{
+				width:240px; height:45px; position:absolute; color:#FFF; font-family:din_bold; margin-top:5px;
+			 font-size:30px; margin-left: 590px; text-align:center;  color:#036;
+				}
+				
+				.refreshbuts{
+					width: 400px; height:55px; position:absolute; border-radius:7px;
+					background-image: url(../images/sysimg/clientque/RF.png); margin-top:955px; margin-left:435px; 
+					}
+					
+					.pmclogso{
+						width: 400px; height:55px; position:absolute;
+						background-image: url(../images/sysimg/clientque/pmclogsss.png);margin-top:955px; margin-left:20px;
+						}
+						
+						
+body.clientquess{
+	background-image:  url(../images/sysimg/clientque/bgs.png);
+	background-repeat: repeat-x;
+	}
+	
+	
+	
+	
+	
+	
+	/*------------------- for MAIN MENU CSS --------*/
+	
+	.yas{
+width: 600px; height:700px; background-color:#666;		
+		}
+		
+		
+		.worksed{
+	width: 750px; height:600px; margin:auto; /*background-color:#CCC;*/
+	background-image:url(../images/sysimg/mainmenu/workbg.PNG);
+	
+	}
+	
+	
+	.buttonsfmenu{
+		width:700px; height: 230px; position:absolute;
+		margin-top: 150px; margin-left:20px; /*background-color:#999;*/
+		}
+		
+		
+/*--------------------------------------------------------*/		
+.b1que{
+	width: 300px; height:100px; float:left;
+	}
+	
+	.buttons1{
+	width: 300px; height:100px; position:absolute; content:""; border:none; background-color:transparent;
+	background-image: url(../images/sysimg/mainmenu/quefront.png);
+	
+	-webkit-transition: opacity 0.4s ease;
+	transition: opacity 0.4s ease;
+	}
+
+	.buttons1:hover{
+		position:absolute;
+		opacity:0; cursor:pointer;
+		}
+	
+	.buttons1a{ 
+	width: 300px; height:100px; content:""; border:none; background-color:transparent;
+	/*margin-left:20px;*/ background-image: url(../images/sysimg/mainmenu/quefront2.png);
+	}
+	
+	/*--------------------------------------------------------*/
+	
+	.b2que{
+		width:300px; height:100px; float:left;
+		margin-left:80px; 
+		}
+		
+	.buttons2{
+	width: 300px; height:100px; position:absolute;   content:""; border:none; background-color:transparent;
+	 background-image:url(../images/sysimg/mainmenu/BACKROOM.PNG);
+	
+	-webkit-transition: opacity 0.4s ease;
+	transition: opacity 0.4s ease;
+	}
+
+	.buttons2:hover{
+		position:absolute;
+		opacity:0;  cursor:pointer;
+	}
+	
+	.buttons2_1{
+	width: 300px; height:100px; content:""; border:none; background-color:transparent;
+	/*margin-left:380px;*/ background-image:url(../images/sysimg/mainmenu/BACKROOM2.PNG);
+	}
+	/*--------------------------------------------------------*/
+	
+	.b3que{
+		width:300px; height:100px; float:left;
+		margin-top:30px;
+		}
+		
+	.buttons3{
+	width: 300px; height:100px; position:absolute;  content:""; border:none; background-color:transparent;
+	 background-image: url(../images/sysimg/mainmenu/ADDUSER.PNG);
+	
+	-webkit-transition: opacity 0.4s ease;
+	transition: opacity 0.4s ease;
+	}
+	
+	.buttons3:hover{
+	position:absolute;
+	opacity:0;  cursor:pointer;
+	}
+	
+	.buttons31a{
+	width: 300px; height:100px; content:""; border:none; background-color:transparent;
+	/*margin-left:380px;*/ background-image: url(../images/sysimg/mainmenu/ADDUSER2.PNG);
+	}
+	
+	
+	
+	.b4que{
+		width:300px; height:100px; float:left;
+		margin-left:80px;margin-top:30px;
+		}
+	.buttons4{
+	width: 300px; height:100px; position:absolute;  content:""; border:none; background-color:transparent;
+	;background-image:url(../images/sysimg/mainmenu/REPORT.PNG);
+	-webkit-transition: opacity 0.4s ease;
+	transition: opacity 0.4s ease;
+	}
+	
+	.buttons4:hover{
+	position:absolute;
+	opacity:0;  cursor:pointer;
+	}
+	.buttons4a{
+	width: 300px; height:100px; content:""; border:none; background-color:transparent;
+	/*margin-left:380px;*/ background-image: url(../images/sysimg/mainmenu/report2a.PNG);
+	}
+	
+	
+	.bodymenu{
+		background-image:url(../images/sysimg/mainmenu/colores.png);
+		}
+		
+			/*------------------- for MAIN MENU CSS2 --------*/
+	
+	.b_1que{
+		width: 300px; height:100px; float:left;
+        margin-top: 60px;
+		}		
+	.buttons1s{
+	width: 300px; height:100px; position:absolute;  content:""; border:none; background-color:transparent;
+	background-image: url(../images/sysimg/mainmenu/quefront.png);
+	
+	-webkit-transition: opacity 0.4s ease;
+	transition: opacity 0.4s ease;
+	}
+	
+	.buttons1s:hover{
+	position:absolute;
+	opacity:0; cursor:pointer;
+	}
+	
+	.buttons_1s{ 
+	width: 300px; height:100px; content:""; border:none; background-color:transparent;
+	/*margin-left:20px;*/ background-image: url(../images/sysimg/mainmenu/quefront2.png);
+	}
+
+	
+	/*-------------------------------------*/
+	
+	.b_2que{
+		width: 300px; height:100px; float:left;
+		margin-left:80px; margin-top: 60px;
+		}
+	.buttons2s{
+	 width: 300px; height:100px; position:absolute;   content:""; border:none; background-color:transparent;
+	 background-image:url(../images/sysimg/mainmenu/BACKROOM.PNG);
+	 
+	 -webkit-transition: opacity 0.4s ease;
+	 transition: opacity 0.4s ease;
+	}
+	
+	
+	.buttons2s:hover{
+	position:absolute;
+	opacity:0; cursor:pointer;
+	}
+	
+	.buttons_2s{ 
+	width: 300px; height:100px; content:""; border:none; background-color:transparent;
+	/*margin-left:20px;*/ background-image: url(../images/sysimg/mainmenu/BACKROOM2.png);
+	}
+
+
+
+	
