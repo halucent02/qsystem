@@ -90,6 +90,25 @@ $(document).ready(function(){
             $("#form_menu").attr("action",httpbase+"menustaff").submit();
         }
     })
+    
+    //check qued list
+     function checklist(){
+     	var httpbase = $('#httpbase').val();
+    	
+    	$.post(httpbase+"quelist/updatelist",
+  		{},
+  		function(data){
+  		$(".listaf").html(data);	
+  		});
+  		
+  		setTimeout(function(){checklist();}, 5000);
+     }
+     checklist();
+     
+     $(".refreshbuts").click(function(){
+     	checklist();
+     })
+	// end check qued list
 
   
 });
