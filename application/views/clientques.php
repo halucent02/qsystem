@@ -9,7 +9,7 @@
                 		<div class="listanumber">999</div>
                         <div class="listaname">MARIA LEONORA THERESA</div>
                 		<div class="listastatus">APPOINTEMENT</div>
-                			</div> <!-----listanaf close ---->
+                </div> <!-----listanaf close ---->
         		
                     
                                 <div class="listanaf">
@@ -205,14 +205,5 @@
 
 
 </div> <!------ clientfield closure --->
-
-
-
-
-
-
-
-
-
 
 <?php require_once 'footer.php'; ?>
