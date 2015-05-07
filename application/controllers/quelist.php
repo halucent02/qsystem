@@ -9,6 +9,7 @@ class Quelist extends CI_Controller {
         parent::__construct();      
         $this->load->library($this->lib);
         $this->load->helper($this->helper);
+        $this->load->model('pending');
         $this->clear_cache();
         }
     
@@ -20,8 +21,20 @@ class Quelist extends CI_Controller {
     }
     
     
+    public function updatelist(){
+        $pendings = $this->pending->generate_all_pending("","all");
+        $output = "";
+        foreach($pendings as $pending){
+            $output  .="<div class='listanaf'>";
+            $output .="<div class='listanumber'>".$pending['numberque']."</div>";
+            $output .="<div class='listaname'>".$pending['firstname']." ".$pending['lastname']."</div>";
+            $output .="<div class='listastatus'>".$pending['status']."</div>";
+            $output .="</div>";
+         }
+            
+        echo $output;
+    }
     public function index(){
-        
         $this->load->view('clientques');
     }
 }
