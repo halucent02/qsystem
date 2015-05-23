@@ -93,19 +93,54 @@ $(document).ready(function(){
     
     //check qued list
      function checklist(){
-     	var httpbase = $('#httpbase').val();
+		var httpbase = $('#httpbase').val();
+		var selected = $('.selected_que').val();
     	
     	$.post(httpbase+"quelist/updatelist",
-  		{},
-  		function(data){
-  		$(".listaf").html(data);	
-  		});
+  		{selected: selected})
+  		.done(function(data){
+  		$(".listaf").html(data);
+		$(".hide_que").show();	
+  		})
+		.fail(function(data){
+		var httpbase2 = $('#httpbase').val();
+		var disconnected = "";
+		disconnected +="<tr>";
+		disconnected +="<td>";
+		disconnected +="<h4>";
+		disconnected +='<img src="http://localhost/qsystem/images/sysimg/logot.png" alt="NO INTERNET CONNECTION">';
+		disconnected +="</h4>";
+		disconnected +="</td>";
+		disconnected +="</tr>";
+		
+		$(".listaf").html(disconnected);
+		$(".hide_que").hide();
+		
+		});
+		
   		
   		setTimeout(function(){checklist();}, 5000);
      }
      checklist();
      
-     $(".refreshbuts").click(function(){
+     $("#allque").click(function(){
+		 $('.selected_que').val("ALL");
+     	checklist();
+     });
+	  $("#forrepair_que").click(function(){
+		   $('.selected_que').val("FOR REPAIR");
+     	checklist();
+     })
+	  $("#inquiry_que").click(function(){
+		   $('.selected_que').val("INQUIRY");
+     	checklist();
+     })
+	  $("#appointment_que").click(function(){
+		   $('.selected_que').val("APPOINTMENT");
+     	checklist();
+     })
+	  $("#releasing_que").click(function(){
+		   $('.selected_que').val("RELEASING");
      	checklist();
      })
 	// end check qued list

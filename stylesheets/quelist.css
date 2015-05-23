@@ -1,0 +1,67 @@
+@import url(fonts.css);
+/*---------------------- CSS FOR CS MACBOOK LOG IN---------------*/
+
+/*------------------ client QUE --------------*/
+
+.clientfield{
+	 display:block; padding:0;
+	background-color: #e1e1e1; margin:auto;
+	}
+	
+/*.listaf{
+	width:840px; height:870px; overflow-y: scroll;
+	 background-color: #CCC; 
+	}*/
+	/*.listanaf{
+		width: 838px; height: 58px;
+	 margin-left:1px; background-color:#FFF;
+		} */
+		
+/*		.listanumber{
+			width:50px;height:25px;color:#FFF; font-family:din_reg;
+			background-color:#06C; font-size:25px; text-align:center; border-radius:5px;
+			}
+			
+			.listaname{
+				width:500px; height:53px;  color:#FFF; font-family:din_bold; text-transform:capitalize;
+		 margin-top:1px; font-size:36px;  margin-left: 82px; text-align:center; color:#036;
+				}
+				
+				.listastatus{
+				width:240px; height:45px; color:#FFF; font-family:din_bold; margin-top:5px;
+			 font-size:30px; margin-left: 590px; text-align:center;  color:#036;
+				}*/
+				
+				.refreshbuts{
+					width: 400px; height:55px; position:absolute; border-radius:7px;
+					background-image: url(../images/sysimg/clientque/RF.png); margin-top:955px; margin-left:435px; 
+					}
+					
+					.pmclogso{
+						width: 400px; height:55px; position:absolute;
+						background-image: url(../images/sysimg/clientque/pmclogsss.png);margin-top:955px; margin-left:20px;
+						}
+						
+	
+	
+	
+/*-------------test page ---*/
+
+.que_h_cont{
+	background-color:#06C; 
+	}
+	
+.que_h{
+	 width:300px;color:#FFF;
+	background-color:#06C; font-size:20px; font-family:din_bold; 
+	}
+	
+.table_height{
+		height:500px; overflow-y:scroll;
+	}
+.try{
+	width:250px; float:left;
+	}
+.buts_cont{
+	margin:auto;
+	}
