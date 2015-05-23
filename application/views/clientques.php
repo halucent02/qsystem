@@ -42,8 +42,6 @@
                       			
                                 	<div class="row">
                                     
-                                    
-                                    
                                     </div>
    
    
