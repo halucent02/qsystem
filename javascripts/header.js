@@ -93,8 +93,16 @@ $(document).ready(function(){
     
     //check qued list
      function checklist(){
+     	//localStorage.removeItem('imgdowninternet');
 		var httpbase = $('#httpbase').val();
 		var selected = $('.selected_que').val();
+		
+		if(localStorage){
+			if(!(localStorage.getItem('imgdowninternet'))){
+				var imagedatafordowningternet = httpbase+"images/sysimg/logot.png";
+				localStorage.setItem('imgdowninternet',imagedatafordowningternet);
+			}
+		}
     	
     	$.post(httpbase+"quelist/updatelist",
   		{selected: selected})
@@ -103,12 +111,11 @@ $(document).ready(function(){
 		$(".hide_que").show();	
   		})
 		.fail(function(data){
-		var httpbase2 = $('#httpbase').val();
 		var disconnected = "";
 		disconnected +="<tr>";
 		disconnected +="<td>";
 		disconnected +="<h4>";
-		disconnected +='<img src="http://localhost/qsystem/images/sysimg/logot.png" alt="NO INTERNET CONNECTION">';
+		disconnected +='<img src="'+localStorage.getItem("imgdowninternet")+'" alt="NO INTERNET CONNECTION">';
 		disconnected +="</h4>";
 		disconnected +="</td>";
 		disconnected +="</tr>";
