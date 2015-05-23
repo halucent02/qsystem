@@ -22,15 +22,20 @@ class Quelist extends CI_Controller {
     
     
     public function updatelist(){
-        $pendings = $this->pending->generate_all_pending("","all");
-        $output = "";
-        foreach($pendings as $pending){
-            $output  .="<div class='listanaf'>";
-            $output .="<div class='listanumber'>".$pending['numberque']."</div>";
-            $output .="<div class='listaname'>".$pending['firstname']." ".$pending['lastname']."</div>";
-            $output .="<div class='listastatus'>".$pending['status']."</div>";
-            $output .="</div>";
-         }
+		$status = isset($_POST['selected']) ? $_POST['selected'] : "ALL";
+		if($status){
+        	$pendings = $this->pending->generate_all_pending_for_client($status);
+        	$output = "";
+        	foreach($pendings as $pending){
+            	$output .="<tr>";
+            	$output .="<td>".$pending['numberque']."</td>";
+            	$output .="<td>".$pending['firstname']." ".$pending['lastname']."</td>";
+            	$output .="<td>".$pending['status']."</td>";
+            	$output .="</tr>";
+         	}
+		}else{
+			$output = "no selected output";
+			}
             
         echo $output;
     }
