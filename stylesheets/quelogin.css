@@ -984,7 +984,7 @@ body.adminqueb{
 	background-image: url(../images/sysimg/quetv/newbg.jpg)
 	}
 	
-.table{
+.table_img{
 	
 	width:1468px; height:1080px; position:absolute; background-repeat:no-repeat;
 	background-image: url(../images/sysimg/quetv/table.png);
@@ -1628,59 +1628,7 @@ margin-left:1468px; color:#000;
 								 
 								 
 								 
-/*------------------ client QUE --------------*/
 
-.clientfield{
-	width: 850px; height:1024px; border-radius:20px;
-	background-color: #CCC; margin:auto;
-	}
-	
-.quetitski{
-	width:850px; height: 55px; position:absolute; color:#FFF; border-radius:10px;
-	background-color:#06C; font-size:45px; font-family:din_bold; text-align:center;
-	}
-.listaf{
-	width:840px; height:870px; position: absolute; overflow-y: scroll;
-	margin-top:70px; background-color: #CCC; margin-left:5px;
-	}
-	.listanaf{
-		width: 838px; height: 58px;
-	 margin-left:1px; background-color:#FFF;
-		} 
-		
-		.listanumber{
-			width:80px; height:53px; position:absolute; color:#FFF; font-family:din_reg;
-			background-color:#06C; margin-top:1px; font-size:40px; text-align:center; border-radius:5px;
-			}
-			
-			.listaname{
-				width:500px; height:53px; position:absolute; color:#FFF; font-family:din_bold; text-transform:capitalize;
-		 margin-top:1px; font-size:36px;  margin-left: 82px; text-align:center; color:#036;
-				}
-				
-				.listastatus{
-				width:240px; height:45px; position:absolute; color:#FFF; font-family:din_bold; margin-top:5px;
-			 font-size:30px; margin-left: 590px; text-align:center;  color:#036;
-				}
-				
-				.refreshbuts{
-					width: 400px; height:55px; position:absolute; border-radius:7px;
-					background-image: url(../images/sysimg/clientque/RF.png); margin-top:955px; margin-left:435px; 
-					}
-					
-					.pmclogso{
-						width: 400px; height:55px; position:absolute;
-						background-image: url(../images/sysimg/clientque/pmclogsss.png);margin-top:955px; margin-left:20px;
-						}
-						
-						
-body.clientquess{
-	background-image:  url(../images/sysimg/clientque/bgs.png);
-	background-repeat: repeat-x;
-	}
-	
-	
-	
 	
 	
 	

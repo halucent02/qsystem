@@ -62,7 +62,7 @@
 	
 <div class="bgtv">      
 	<div class="floor">
-    	<div class="table">
+    	<div class="table_img">
         	<div class="nositters">
             	<div id="nosit1" class="blink<?php echo $quedata->banner_num == "1" && $qd->pandora ? 'Yes' : '' ?>">1</div>
                 <div id="nosit2" class="blink<?php echo $quedata->banner_num == "2" && $qd->pandora ? 'Yes' : '' ?>">2</div>

@@ -42,6 +42,16 @@ class Pending extends CI_MODEL{
 		}
 	}
 	
+	public function generate_all_pending_for_client($status=""){
+		if($status=="" || $status=="ALL"){
+			$query = $this->db->query("SELECT * FROM pending WHERE DATE(date_of_transaction)= CURDATE()");
+			return $query->result_array();
+		}else{
+			$query = $this->db->query("SELECT * FROM pending WHERE status='$status' && DATE(date_of_transaction)= CURDATE()");
+			return $query->result_array();
+		}
+	}
+	
 	public function generate_releasing(){
 		$query = $this->db->query("SELECT * FROM pending WHERE DATE(date_of_transaction)= CURDATE() AND status='RELEASING'");
 		return $query->result_array();
