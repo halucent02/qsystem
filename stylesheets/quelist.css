@@ -49,6 +49,7 @@
 
 .que_h_cont{
 	background-color:#06C; 
+	height:40px;
 	}
 	
 .que_h{
@@ -57,11 +58,12 @@
 	}
 	
 .table_height{
-		height:500px; overflow-y:scroll;
+		height:20%; padding:0; overflow-y:scroll;
 	}
-.try{
-	width:250px; float:left;
+
+.testings{
+	width:100%; height:50px; font-family:din_bold; font-size:20px;
 	}
-.buts_cont{
-	margin:auto;
-	}
+	
+
+	
