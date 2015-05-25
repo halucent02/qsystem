@@ -12,13 +12,13 @@
                             <div class="table_height col-lg-12 col-xs-12">
                                     <div class="table-responsive">
                                         <table class=" table table-striped table-bordered table-condensed table-hover listaf"></table>
+                                        <div class="listaf2"></div>
                                     </div>
                             </div>
                     </div>
                     <hr>
-                      <div class="row">
+                      <div class="hide_que row">
 
-                     
                              <div class="btn-group col-lg-2 col-md-12 col-xs-12" role="group">
                                         <button type="button" id ="allque" class="btn btn-primary testings">All Queue</button>
                              </div>
@@ -37,11 +37,10 @@
                               <div class="btn-group col-lg-2 col-md-12 col-xs-12" role="group">
                                         <button type="button" id ="inquiry_que" class="btn btn-primary testings">Inquiry</button>
                               </div>
-                 
                  						<input type="hidden" class="selected_que" value="ALL">
-                          
                    
-                 	  </div><!---row-->   
+                 	  </div><!---row buttons-->   
+
 </div> <!---container-fluid-->
 
 

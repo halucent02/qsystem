@@ -2,7 +2,7 @@
 /*---------------------- CSS FOR CS MACBOOK LOG IN---------------*/
 
 /*------------------ client QUE --------------*/
-
+body{ overflow: hidden;}
 .clientfield{
 	 display:block; padding:0;
 	background-color: #e1e1e1; margin:auto;
