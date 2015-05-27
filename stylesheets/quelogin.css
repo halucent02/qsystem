@@ -38,7 +38,7 @@ username{
 }
 
 .userss{
-	width:280px; height:22px; position:absolute;
+	width:290px; height:30px; position:absolute;
 	margin-left:410px; margin-top:270px;
 	border-radius:6px; font-size:14px;
 	}
@@ -48,7 +48,7 @@ pass{
 	}
 	
 	.password{
-	width:280px; height:22px; position:absolute;
+	width:290px; height:30px; position:absolute;
 	margin-left:410px; margin-top:310px;
 	border-radius:6px; font-size:14px;
 	}
@@ -108,8 +108,8 @@ lastname{
 	}
 	
 .fn{
-	width:590px; height:50px; position:absolute;
-	margin-left:550px; margin-top:230px;
+	width:630px; height:60px; position:absolute;
+	margin-left:550px; margin-top:240px;
 	border-radius:10px; font-size:14px; text-align:center;
 	font-family:din_reg; font-size:40px; text-transform:uppercase;
 	}
@@ -119,8 +119,8 @@ lastname{
 		margin-left:550px; margin-top:140px; font-family:din_reg; font-size:40px;
 		}
 .ln{
-	width:590px; height:50px; position:absolute;
-	margin-left:550px; margin-top:330px;
+	width:630px; height:60px; position:absolute;
+	margin-left:550px; margin-top:340px;
 	border-radius:10px; text-align:center;
 	font-family:din_reg; font-size:40px; text-transform:uppercase;
 	}
@@ -145,29 +145,29 @@ lastname{
 .bots{
 	width:1365px; height:394px; position:absolute;
 	margin-top: 630px;
-	background-image: url("../images/sysimg/ipadque/bot.png");	
+	background-image: url("../images/sysimg/ipadque/bot_copy.png");	
 	}
 	
 .forep{
-	width:572px; height:118px; position:absolute;
-	background-image: url("../images/sysimg/ipadque/button/forrep.png");
+	width:572px; height:118px; position:absolute; 
+	background-image: url("../images/sysimg/ipadque/button/forrep_new_copy.png");
 	margin-left:80px; margin-top:5px; content:""; border:none; background-color:transparent;
 	}
 .rel{
 	width:572px; height:118px; position:absolute;
-	background-image: url(../images/sysimg/ipadque/button/releasing.png);
+	background-image: url("../images/sysimg/ipadque/button/releasing_new.png");
 	margin-left:700px; margin-top:5px; content:""; border:none; background-color:transparent;
 	}
 	
 .app{
 	width:572px; height:118px; position:absolute;
-	background-image: url(../images/sysimg/ipadque/button/appointment.png);
+	background-image: url("../images/sysimg/ipadque/button/appointment_new.png");
 	margin-left:80px; margin-top:125px; content:""; border:none;background-color:transparent;
 }
 
 .inq{
 	width:572px; height:118px; position:absolute;
-	background-image: url(../images/sysimg/ipadque/button/inquiry.png);
+	background-image: url("../images/sysimg/ipadque/button/inquiry_new.png");
 	margin-left:700px; margin-top:125px; content:""; border:none;background-color:transparent;
 	}
 
@@ -1597,7 +1597,7 @@ margin-left:1468px; color:#000;
 			 
 			 
 			 /*------ row div ---- */
-			 
+			
 								#row1{
 				 width:650px; height:63px; position:absolute;
 				 				 }

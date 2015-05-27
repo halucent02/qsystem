@@ -4,7 +4,7 @@
 <div class="background">
 	
 	<div class="logo"></div>
-   <quesys>QUEUING SYSTEM</quesys>
+   <quesys>QUEUEING SYSTEM</quesys>
    <username>USERNAME:</username>
    <?php echo form_open('/login/verifyUser') ;?>
    <input name="username" type="text" class="userss">
