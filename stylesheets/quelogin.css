@@ -223,7 +223,7 @@ width:130px; margin:auto;
 	}
 /*------------------PENDING SECTION ---------*/
 .titpends{
-	width:520px; height:30px; position:absolute;
+	width:514px; height:30px; position:absolute;
 	background:#06C;
 	}
 	
@@ -275,15 +275,15 @@ width:130px; margin:auto;
 	} /*----- green ---- */
 	
 .radios{
-	width:520px; height:22px; position:absolute; font-family:din_reg;
-	margin-top:428px; background-color: #CCC; text-align: center;
+	width:514px; height:22px; position:absolute; font-family:din_reg;
+	margin-top:422px; background-color: #CCC; text-align: center;
 	}
 
 
 /*----------- SERVED SECTION ---------*/
 
 .titserve{
-	width:342px; height:30px; position:absolute;
+	width:335px; height:30px; position:absolute;
 	background:#06C;
 	}
 	
@@ -327,7 +327,7 @@ width:130px; margin:auto;
 /*----------- SKIPPED SECTION ---------*/
 
 .titskip{
-	width:346px; height:30px; position:absolute;
+	width:340px; height:30px; position:absolute;
 	background:#06C;
 	}
 	
@@ -366,11 +366,11 @@ width:130px; margin:auto;
 
 .editcounter{ 
 	width:150px; height:25px; font-size:12px; background-color:#06F;
-	float:right; margin-right:630px; margin-top:13px; color:#FFF;
+	float:right; margin-right:610px; margin-top:21px; color:#FFF;
 	}
 .logsout{
 	width:150px; height:30px; font-size:15px;
-	float:right; margin-top:20px; font-weight:bold;
+	float:right; margin-right:20px; margin-top:20px; font-weight:bold;
 	}
 
 .backtabes{
